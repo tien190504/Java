@@ -1,0 +1,7 @@
+{
+  "C_Cpp_Runner.msvcBatchPath": "",
+  "java.project.sourcePaths": [
+    "src/generic_demo"
+  ],
+  "java.debug.settings.onBuildFailureProceed": true
+}

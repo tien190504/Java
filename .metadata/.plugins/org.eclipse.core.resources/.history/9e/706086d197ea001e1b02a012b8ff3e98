@@ -1,0 +1,40 @@
+
+public class SanPham {
+	private String maSP;
+	private String tenSP;
+	private float dongiaSP;
+	
+	public SanPham() {
+		
+	}
+	public SanPham(String maSP, String tenSP, float dongiaSP) {
+		super();
+		this.maSP = maSP;
+		this.tenSP = tenSP;
+		this.dongiaSP = dongiaSP;
+	}
+	
+	public String getMaSP() {
+		return maSP;
+	}
+
+	public void setMaSP(String maSP) {
+		this.maSP = maSP;
+	}
+
+	public String getTenSP() {
+		return tenSP;
+	}
+
+	public void setTenSP(String tenSP) {
+		this.tenSP = tenSP;
+	}
+
+	public float getDongiaSP() {
+		return dongiaSP;
+	}
+
+	public void setDongiaSP(float dongiaSP) {
+		this.dongiaSP = dongiaSP;
+	}
+}
